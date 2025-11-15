@@ -1,0 +1,121 @@
+.container {
+  width: 100%;
+}
+
+.heading {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--color-gray-800);
+  margin-bottom: var(--spacing-sm);
+}
+
+.subheading {
+  color: var(--color-gray-500);
+  margin-bottom: var(--spacing-3xl);
+}
+
+.error {
+  background: #fed7d7;
+  border: 2px solid #fc8181;
+  color: #c53030;
+  padding: 14px;
+  border-radius: var(--radius-md);
+  margin-bottom: var(--spacing-2xl);
+}
+
+.avatarRow {
+  display: flex;
+  justify-content: center;
+  margin-bottom: var(--spacing-2xl);
+}
+
+.avatarWrap {
+  position: relative;
+}
+
+.avatarImage {
+  width: 100px;
+  height: 100px;
+  border-radius: var(--radius-full);
+  object-fit: cover;
+}
+
+.avatarPlaceholder {
+  width: 100px;
+  height: 100px;
+  border-radius: var(--radius-full);
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.addAvatarBtn {
+  position: absolute;
+  bottom: -6px;
+  right: -6px;
+  background: var(--color-primary);
+  border: none;
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+}
+
+.formGroup {
+  margin-bottom: var(--spacing-2xl);
+}
+
+.label {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: var(--spacing-sm);
+  color: var(--color-gray-700);
+}
+
+.input {
+  width: 100%;
+  padding: 14px 16px;
+  border: 2px solid var(--color-gray-200);
+  border-radius: var(--radius-md);
+  font-size: 15px;
+  transition: border-color var(--transition-base);
+}
+
+.input:focus {
+  border-color: var(--color-primary);
+}
+
+.submitButton {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: var(--radius-md);
+  font-size: 15px;
+  font-weight: 600;
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+  color: var(--color-white);
+  margin-bottom: var(--spacing-2xl);
+}
+
+.switchMode {
+  text-align: center;
+  color: var(--color-gray-600);
+}
+
+.switchButton {
+  color: var(--color-primary);
+  background: none;
+  border: none;
+  font-weight: 600;
+  padding: 0;
+}
+
+.switchButton:hover {
+  text-decoration: underline;
+}

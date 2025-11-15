@@ -1,0 +1,103 @@
+/* Auth Styles */
+.authContainer {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-xl);
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+}
+
+.authCard {
+  background: var(--color-white);
+  border-radius: var(--radius-2xl);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  max-width: 900px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.authBanner {
+  flex: 1;
+  min-width: 300px;
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+  padding: 60px;
+  color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.brandContainer {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: var(--spacing-4xl);
+}
+
+.brandIcon {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 15px;
+  border-radius: var(--radius-lg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brandName {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.bannerHeading {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: var(--spacing-lg);
+  line-height: 1.2;
+}
+
+.bannerSubheading {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.authForm {
+  flex: 1;
+  min-width: 300px;
+  padding: 60px;
+}
+
+/* Main App Styles */
+.appContainer {
+  height: 100vh;
+  display: flex;
+  background: var(--color-gray-50);
+}
+
+.chatContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background: var(--color-white);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .authBanner {
+    padding: 40px;
+  }
+
+  .authForm {
+    padding: 40px;
+  }
+
+  .bannerHeading {
+    font-size: 28px;
+  }
+
+  .bannerSubheading {
+    font-size: 16px;
+  }
+}

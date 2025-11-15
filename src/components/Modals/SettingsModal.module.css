@@ -1,0 +1,79 @@
+.container {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.card {
+  padding: var(--spacing-md);
+  border-radius: var(--radius-md);
+  background: var(--color-gray-50);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.desc {
+  font-size: 14px;
+  color: var(--color-gray-500);
+}
+
+.toggleOn, .toggleOff {
+  width: 48px;
+  height: 24px;
+  border-radius: 12px;
+  position: relative;
+  cursor: pointer;
+}
+
+.toggleOn {
+  background: var(--color-primary);
+}
+
+.toggleOff {
+  background: var(--color-gray-200);
+}
+
+.toggleDot {
+  width: 20px;
+  height: 20px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+}
+
+.accountSection {
+  border-top: 1px solid var(--color-gray-200);
+  padding-top: var(--spacing-lg);
+  margin-top: var(--spacing-md);
+}
+
+.accountTitle {
+  font-weight: 600;
+  margin-bottom: var(--spacing-sm);
+}
+
+.accountItem {
+  color: var(--color-gray-500);
+  font-size: 14px;
+  margin-bottom: var(--spacing-sm);
+}
+
+.clearBtn {
+  width: 100%;
+  padding: 12px;
+  background: #fff0f0;
+  color: var(--color-danger);
+  border: none;
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  margin-top: var(--spacing-md);
+}

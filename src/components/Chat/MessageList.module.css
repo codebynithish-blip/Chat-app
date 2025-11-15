@@ -1,0 +1,12 @@
+.container {
+  flex: 1;
+  overflow-y: auto;
+  padding: var(--spacing-3xl);
+  background: var(--color-gray-50);
+}
+
+.empty {
+  text-align: center;
+  color: var(--color-gray-500);
+  margin-top: 16px;
+}

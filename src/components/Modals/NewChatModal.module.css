@@ -1,0 +1,31 @@
+.list {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.empty {
+  text-align: center;
+  color: var(--color-gray-500);
+  padding: 20px;
+}
+
+.userBtn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-lg);
+  padding: 12px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  border-radius: var(--radius-md);
+}
+
+.userBtn:hover {
+  background: var(--color-gray-50);
+}
+
+.name {
+  font-weight: 600;
+}

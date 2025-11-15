@@ -1,0 +1,26 @@
+.avatarImage {
+  border-radius: var(--radius-full);
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform var(--transition-base);
+}
+
+.avatarImage:hover {
+  transform: scale(1.05);
+}
+
+.avatarPlaceholder {
+  border-radius: var(--radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-white);
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform var(--transition-base);
+  user-select: none;
+}
+
+.avatarPlaceholder:hover {
+  transform: scale(1.05);
+}

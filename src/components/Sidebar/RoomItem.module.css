@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-lg);
+  padding: 12px 16px;
+  border-radius: var(--radius-md);
+  background: transparent;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background var(--transition-base);
+}
+
+.container:hover {
+  background: var(--color-gray-50);
+}
+
+.active {
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+  color: var(--color-white);
+}
+
+.channelIcon {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+  color: white;
+}
+
+.label {
+  font-weight: 600;
+  font-size: 14px;
+}
